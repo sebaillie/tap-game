@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clicker</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="clicker.js"></script>
+</head>
+<body>
+<button id="tapper1" class="tap" onclick="taps++">TAP</button>
+<div class="scores">
+	<p id="tapbox"></p>
+	<p id="autoclicks"></p>
+</div>
+
+<!-- Upgrades -->
+<div class='autoUpgrades'>
+	<p class="uptitle">AutoClick Upgrades</p>
+	<button id="upgrade1" class="simple" onclick="upgrade1()" style="visibility: hidden;">+1 AutoClick (100)</button>
+	<button id="upgrade2" class="simple" onclick="upgrade2()" style="visibility: hidden;">+2 AutoClick (1000)</button>
+	<button id="upgrade3" class="simple" onclick="upgrade3()" style="visibility: hidden;">+3 AutoClick (5000)</button>
+	<button id="upgrade4" class="simple" onclick="upgrade4()" style="visibility: hidden;">+5 AutoClick (10000)</button>
+</div>
+
+</body>
+</html>
